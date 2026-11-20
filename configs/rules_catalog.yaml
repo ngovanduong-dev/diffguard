@@ -1,0 +1,31 @@
+rules:
+  - tool_source: AST_CUSTOM
+    rule_code: AST01
+    rule_name: mutable-default-argument
+    category: CHUC_NANG
+    default_severity: CAO
+  - tool_source: AST_CUSTOM
+    rule_code: AST02
+    rule_name: bare-except-clause
+    category: CHUC_NANG
+    default_severity: TRUNG_BINH
+  - tool_source: AST_CUSTOM
+    rule_code: AST03
+    rule_name: unclosed-open-call
+    category: BAO_TRI
+    default_severity: TRUNG_BINH
+  - tool_source: AST_CUSTOM
+    rule_code: AST04
+    rule_name: sql-string-interpolation
+    category: BAO_MAT
+    default_severity: CAO
+  - tool_source: AST_CUSTOM
+    rule_code: AST05
+    rule_name: assert-in-non-test
+    category: BAO_MAT
+    default_severity: THAP
+  - tool_source: AST_CUSTOM
+    rule_code: AST06
+    rule_name: regex-compile-in-loop
+    category: HIEU_NANG
+    default_severity: THAP
